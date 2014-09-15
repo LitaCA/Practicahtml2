@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name= "description" content= "ejemplo de html5"/>
+		<meta name= "keywords" content= "html5, css3, javascript"/>
+		<title>Formulario</title>
+	</head>
+
+	   <body>
+	       <div>
+		<form action = "datos.html" method="GET">
+		     <fieldset>
+		     <legend>Formulario (Programación IV)</legend>
+			<br/>
+			<br/>
+				<fieldset>
+				<legend>Laboral</legend>
+				<label for="">Codigo*</label><br/>
+				<input type="codigo" size="10" maxlength="10" 
+				  	       name="contra" />
+						<br/>
+						<br/>
+				<label for="">Fecha de ingreso*</label><br/>
+				<input type="fechadeingreso" size="10" maxlength="10" 
+				  	       name="fecha" />
+						<br/>
+						<br/>
+				<label for="">Seguridad social</label></br>
+				<select id="Seguridad social" name "Seguridad social">
+				<option value "-1" selected="selected"></option>
+				<option value "Estudiante">Estudiante</option>
+				<option value "Trabajador">Trabajador</option>
+				<option value "Pensionado">Pensionado</option>
+					</select>
+				
+						<br/>
+						<br/>
+				<label fo="">Numero</label></br>
+				<input type ="num" sixe="10" maxlength="15"
+						name="nume"/>
+					</fieldset>
+				<br/>
+				<br/>
+			<fieldset>
+				<legend>Personal</legend>
+					<label for="">Nombre</label><br/>
+				<input type="nomP" size="30" maxlength="30" 
+				  	       name="noP" />
+						<br/>
+						<br/>
+					<label for="">Apellido paterno</label><br/>
+				<input type="apellidpP" size="30" maxlength="30" 
+				  	       name="apeP" />
+						<br/>
+						<br/>
+					<label for="">Apellido materno</label><br/>
+				<input type="apellidoM" size="30" maxlength="30" 
+				  	       name="apeM" />
+						<br/>
+						<br/>
+					<label for="">Foto</label><br/>
+				<input type="file" name="foto" > 
+						<br/>
+						<br/>
+						<label for="">Sexo</label><br/>
+					<input type="checkbox" id="girl" name="woman" value="1">
+				<label for="girl">Mujer</label><br/>	
+					<input type="checkbox" id="boy" name="male" value="2">
+				<label for="boy">Hombre</label>
+						<br/>
+						<br/>
+					<label for="">Estado civil</label></br>
+				<select id="estadociv" name "estadoC">
+					<option value "-1" selected="selected"></option>
+					<option value "Soltero">Soltero</option>
+					<option value "Casado">Casado</option>
+						</select>
+						<br/>
+						<br/>
+			</fieldset>
+
+				<br/>
+				<br/>
+			<fieldset>
+				<legend>Nacimiento</legend>
+					<label for="">Fecha</label><br/>
+						<input type="fech" size="10" maxlength="10" 
+				  	  		    name="FN" />
+						<br/>
+						<br/>
+					<label for="">Pais</label></br>
+					<select id="Pa" name "PaisN">
+						<option value "-1" selected="selected"></option>
+						<option value "Mexico">Mexico</option>
+						<option value "Estados Unidos">Estados Unidos</option>
+						<option value "Canada">Canada</option>
+						<option value "Japon">Japon</option>
+						<option value "Rumania">Rumania</option>
+							</select>
+						<br/>
+						<br/>
+			</fieldset>
+
+				<br/>
+				<br/>
+			<fieldset>
+				<legend>Contacto</legend>
+			<label for="">Titulo</label><br/>
+				<input type="Ti" size="15" maxlength="20" 
+					name="Titu" />
+						<br/>
+						<br/>
+			<label for="">CURP</label><br/>
+				<input type="numCu" size="20" maxlength="20" 
+				  	  name="NC" />
+						<br/>
+						<br/>
+			<label for="">RFC</label><br/>
+				<input type="numRFC" size="15" maxlength="20" 
+					name="RFC_num" />
+						<br/>
+						<br/>
+			<label for="">Relefono</label><br/>
+				<input type="tel" size="15" maxlength="15" 
+				  	  name="Fone" />
+						<br/>
+						<br/>
+			<label for="">Celular</label><br/>
+				<input type="cel" size="15" maxlength="10" 
+					name="cell" />
+						<br/>
+						<br/>
+			<label for="">Domicilio</label><br/>
+				<input type="Dom" size="15" maxlength="10" 
+				  	  name="domi" />
+						<br/>
+						<br/>
+			<label for="">Colonia</label><br/>
+				<input type="Col" size="20" maxlength="10" 
+					name="Con_C" />
+						<br/>
+						<br/>
+			<label for="">Codigo postal</label><br/>
+				<input type="cogico_P" size="15" maxlength="10" 
+				  	  name="FN" />
+						<br/>
+						<br/>
+			<label for="">Pais</label></br>
+				<select id="Pa" name "PaisN">
+					<option value "-1" selected="selected"></option>
+					<option value "Mexico">Mexico</option>
+					<option value "Estados Unidos">Estados Unidos</option>
+					<option value "Canada">Canada</option>
+					<option value "Japon">Japon</option>
+					<option value "Rumania">Rumania</option>
+						</select>
+						<br/>
+						<br/>
+			<label for="">Radio</label><br/>
+				<input type="rad" size="15" maxlength="10" 
+				  	  name="RD" />
+						<br/>
+						<br/>
+			<label for="">Correo electronico</label><br/>
+				<input type="email" size="15" maxlength="20" 
+				  	  name="msn" />
+						<br/>
+						<br/>
+			<label for="">Observaciones</label><br/>
+				<textarea rows="10" maxlength="?"  name="obser">
+					Escriba sus observaciones</TEXTAREA>
+						<br/>
+						<br/>
+			</fieldset>
+				<br/>
+				<br/>
+					
+				<input type="submit" name="enviar" value="cancelar">
+				<input type="submit" name="enviar" value="agregar">
+					
+			  </form>
+			</div>
+		      </body>
+		    </html>
